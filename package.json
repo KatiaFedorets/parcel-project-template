@@ -1,9 +1,9 @@
 {
-  "name": "parcel-project-template",
+  "name": "Project-olx",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://katiafedorets.github.io/Project-JS-9/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
@@ -12,18 +12,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/KatiaFedorets/Project-JS-9"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/KatiaFedorets/Project-JS-9/issues"
   },
   "devDependencies": {
+    "babel-loader": "^8.2.2",
     "gh-pages": "^3.1.0",
     "parcel-bundler": "^1.12.4",
     "posthtml-include": "^1.4.3",
-    "sass": "^1.26.9"
+    "sass": "^1.26.9",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "dependencies": {
+    "basiclightbox": "^5.0.3",
+    "gh-pages": "^3.1.0"
   }
 }
